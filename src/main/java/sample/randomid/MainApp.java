@@ -29,4 +29,8 @@ public class MainApp {
 			e.printStackTrace();
 		}
 	}
+	
+	public void printNum() {
+		System.out.println("Printing random UID: " + UUID.randomUUID().toString());
+	}
 }
